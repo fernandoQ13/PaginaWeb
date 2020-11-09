@@ -1,0 +1,61 @@
+<style>
+		
+		
+
+		header{
+
+			text-align: left;
+			background: #cccccc;
+		}
+
+		#cabe {
+			 text-align: center;
+		}
+		table{
+			
+			margin: 10px;
+			border-collapse: collapse;
+			border: 2px solid black;
+
+
+		}
+		/* espacio de relleno em celdas y cabeceras*/
+	    td{
+	    	border-collapse: collapse;
+			border:  2px solid black;
+			padding: 6px;/*tamaño de las celda*/
+
+	    }
+		th{
+			border-collapse: collapse;
+			border:  2px solid black;
+			padding: 5px;/*tamaño de las cabeceras*/
+		}
+		/*modificacion de estilo de cabecera*/
+		th{
+			text-align: center;
+			border-collapse: collapse;
+			border:2px solid black;
+			
+			color: black;/*color de LA letra de las cabecere*/
+			text-transform: uppercase;/*tipo de letra*/
+		}
+		/*modificacion de estilo de las celdas*/
+		td{
+			text-align: left;/*posicion del texto(izquierda,centro,derecha)*/
+			/*border = linea entre celdas ,bottom=linea inferior de cada celda*/
+		
+			color: #505;/*color de letra de las celdas*/
+			font-size: 12px;/*tamaño de la letras*/
+		}
+		
+		div{
+			text-align: center;
+		}
+		
+		#ejem{
+			color: red;
+
+		}
+
+	</style>

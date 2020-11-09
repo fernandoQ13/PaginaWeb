@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Etiquetas de tablas</title>
+	<link rel="stylesheet" type="text/css" href="stabla.css">
+</head>
+<body>
+	
+	
+
+	</style>
+
+	<header>
+			<h1 id="cabe">Etiquetas de tablas en html5</h1>
+			<p> Una tabla es una serie de celdas distribuidas en filas y columnas. En sus celdas se pueden insertar
+			desde un simple número o letra, hasta la información más completa de texto o elementos
+			multimedia.</p>
+	</header>
+	
+	
+		
+		<table STYLE="MARGIN: 0 auto">
+						
+							
+						<tr>	
+							<th colspan="2">
+								<u>etiquetas para tablas</u>
+							</th>
+								
+						</tr>			
+						<tr>
+							<td colspan="2">Una tabla puede se sencilla o complejas,todo deponde de nuestros<br>objetivos y la cantidad de etiquetas y atributos a utilizar.</td>
+						</tr>	
+									
+						<tr>
+
+							<th>Etiqueta </th>
+								
+							<th>Descriccion</th>
+							
+						</tr>
+									
+						<tr>
+										
+							<td> < table> </td>
+							<td> Etiqueta contenedora que tendra<br>en su interior toda la tabla.</td>
+
+						</tr>
+
+						<tr>
+										
+							<td> < tr> </td>
+							<td>Etiqueta contenedora de cada una<br>de las filas de la tabla.</td>
+						</tr>
+
+						<tr>
+										
+							<td> < td> </td>
+							<td>Cada una de las celdas de ls tablas.</td>
+							
+						</tr>
+
+						<tr>
+									
+							<td> < th> </td>
+							<td>Cada una de las cabeceras de las celdas<br>de la tabla.</td>
+
+						</tr>
+								
+						<tr>
+							<td colspan="2"> las etiquetas < td> y < th> pueden incluir unos atributos para<br>modificar su comportamiento o para establecer relaciones<br>cemanticas entre celda.</td>
+						</tr>
+
+						<tr>
+										
+							<td>  colspan </td>
+							<td>Numero de columnas que la celda abarca.<br>Ejemplo : < th colspan=" N"> < /th> </td>
+
+						</tr>
+
+						<tr>
+
+			
+							<td>  rowspam </td>
+						<td>Numero de filas que la celda abarca.<br>Ejemplo :< th rowspan=" N">< /th></td>
+
+						</tr>	
+						<tr>
+
+							<td colspan="2">  Al crear una tabla el navegador se encarga de crearla a medida<br>que va leyendo las etiquetas, lo cual quiere decir que la tabla se<br>crea en orden que se van especificando los elementos, es<br>decir, de arriba a bajo.Sin embargo, podemos utilizar unas<br>etiquetas contenedoras que establece la zona de la tabla donde<br>deben de apartecer el contenido.</td>
+									
+
+						</tr>	
+						<tr>
+
+							<td>  < thead> </td>
+							<td>Etiqueta contenedora de la cabece-<br>ra dela table(parte superior).</td>
+
+						</tr>	
+
+						<tr>
+
+							<td> < tbody> </td>
+							<td>Etiqueta contenedora del cuelpo de la tabla<br>(paret central).</td>
+
+						</tr>		
+
+						<tr>
+
+							<td>  < tfoot> </td>
+							<td>Etiqueta conrtenedora del pie de la tabla<br>(parte inferior)</td>
+
+						</tr>	
+	
+	
+		</table>
+		
+	
+		<div>
+
+			<p ><big>Visualicen los siguientes tres ejemplos para una mejor comprecion</big></p>
+	
+		</div>
+		<div>
+			<H3 id="ejem">EJEMPLO:1</H3>
+		</div>
+		<figure >
+			<img src="primera.jpg" width="350" height="300" align ="right">
+			<figcaption aling="center" >
+				<p>< table> <br>
+				 < tr> <br>
+			 	<  th>Título columna 1< /th> <br>
+			 	  < th>Título columna 2< /th> <br>
+			 	  < th>Título columna 3< /th><br>
+			 	< /tr><br>
+			 	 < tr><br>
+			 	  < td>Celda 1x1< /td><br>
+			 	   < td>Celda 2x1< /td> <br>
+			 	    < td>Celda 3x1< /td><br>
+			 	< /tr> <br>
+			 	 < tr><br>
+			 	  < td>Celda 1x2< /td> <br>
+			 	   < td>Celda 2x2< /td> <br>
+			 	    < td>Celda 3x2< /td> <br>
+			 	  < /tr><br>
+			 	  < /table><br>
+				</p>
+		</figcaption>
+			
+		</figure>
+		<div>
+			<H3 id="ejem">EJEMPLO:2</H3>
+		</div>
+		<figure>
+
+			<img src="segunda.jpg" width="300" height="200" align ="right">			
+
+			<figcaption> 
+			 	  <p>
+			 	  	< style><br>
+			 	   td {<br>
+			 	   	border: 1px solid black;<br>
+			 	   	}<br>
+			 	  < /style> <br>
+			 	  < table> 
+			 	  	< tr> <br>
+			 	  		< td colspan="3">Datos adicionales< /td> <br>
+			 	  		 < /tr> <br>
+			 	  		 < tr> <br>
+			 	  		 	< td>Celda 1x1< /td> <br>
+			 	  		 	< td>Celda 2x1< /td><br>
+			 	  		 	 < td>Celda 3x1< /td><br>
+			 	  		 	  < /tr> <br>
+			 	  		 	< /table><br> 
+					</p>
+			 	</figcaption>
+			
+		</figure>
+		
+		<div>
+			<H3 id="ejem">EJEMPLO:3</H3>
+		</div>
+		<figure>
+			<img src="tercera.jpg" width="350" height="350" align ="right">
+			<figcaption> <p>
+			 	  	< table> <br>
+			 	  	 < tfoot><br>
+			 	  	   < tr> <br>
+			 	  	  	< td>Pie de tabla 1< /td><br>
+			 	  	   < td>Pie de tabla 2< /td> <br>
+			 	  	< /tr><br>
+			 	  	  < /tfoot><br> 
+			 	  	 < thead><br>
+			 	  	  < tr><br>
+			 	  	   < th>Columna 1< /th><br>
+			 	  	  < th>Columna 2< /th><br>
+			 	  	  < /tr><br>
+			 	  	  < /thead><br>
+			 	  	  
+			 	  	 < tbody><br>
+			 	  	  < tr><br>
+			 	  	  < td>Celda 1< /td><br>
+			 	  	  < td>Celda 2< /td><br>
+			 	  	  < /tr> <br>
+			 	  	< /tbody><br>
+
+			 	  	  < caption> Título de la tabla < /caption><br> 
+			 	  	< /table>
+			 	 </p></figcaption>
+			
+		</figure>
+	
+	
+</body>
+</html>
